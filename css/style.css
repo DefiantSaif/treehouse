@@ -1,0 +1,313 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+#header-area {
+    padding: 40px 0;
+    padding-right: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #777777;
+    padding-right: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#banner-area {
+    width: 100%;
+    background-image: url(../img/bg1.jpg);
+    background-size: cover;
+    min-height: 530px;
+    background-repeat: no-repeat;
+    
+}
+#banner-area .container{
+    text-align: center;
+}
+
+#banner-area h2 {
+    font-size: 60px;
+    text-align: center;
+    color: #FFF;
+    padding-top: 120px;
+}
+#banner-area p {
+    padding-top: 48px;
+    text-align: center;
+    color: #CCCCCC;
+}
+
+#banner-area button.portfolio {
+    color: #fff;
+    font-size: 16px;
+    background: #7CC576;
+    border-radius: 45px;
+}
+
+
+#service-section{
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+#service-section .container{
+    text-align: center;
+}
+#service-section .container h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+#service-section .container p.t{
+    padding-top: 25px;
+    color: #777777;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 90px;
+}
+#service-section .container img{
+    padding-bottom: 40px;
+}
+
+#service-section h3 {
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 19px;
+}
+#service-section .container p.q {
+    color: #777777;
+    font-size: 14px;
+}
+
+
+#middle-banner {
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    color: #FFF;
+}
+
+#middle-banner .banner-text {
+    padding-top: 100px;
+}
+#middle-banner h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+#middle-banner p {
+    font-size: 16px;
+    padding: 10px;
+    color: #CCCCCC;
+}
+
+#middle-banner .banner-list p{
+    font-size: 16px; 
+}
+
+#middle-banner .banner-text button {
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+#project-area {
+    margin-top: 100px;
+}
+#project-area h2{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#project-area p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #777777;
+    margin-bottom: 60px;
+}
+#project-area .mobile{
+    background-image: url(../img/mobiledesign.png);
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#project-area .project-list h5{
+    font-size: 16px;
+    font-weight: bolder;
+}
+#project-area .project-list p{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+
+#culture-area{
+    background: #F9F9F9;
+}
+#culture-area h1{
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#culture-area h5{
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+#culture-area img{
+    padding-bottom: 20px;
+}
+#culture-area p{
+    font-size: 14px;
+    color: #777777;
+}
+
+#next-project{
+    min-height: 250px;
+    background: #7CC576;
+}
+
+#next-project h1{
+    font-size: 40px;
+    color: #FFF;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+#next-project .btn {
+    color: #FFF;
+    border:2px solid #FFF;
+}
+#next-project .btn:hover{
+    background: #FFF;
+    color: #000;
+}
+
+#logo-section {
+    text-align: center;
+    padding:50px;
+    
+}
+
+
+
+#footer-main{
+    background: #222222;
+    color: #FFF;
+    padding: 60px 0;
+}
+#footer-main .contact{
+    
+}
+#footer-main h5{
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+}
+
+#footer-main  ul{
+    list-style: none;
+    padding: 10px;
+}
+#footer-main  ul li{
+    font-size: 16px;
+    padding: 5px;
+}
+#footer-main  ul li::before{
+    content:''
+}
+
+.copyright-section {
+    padding-top: 35px;
+}
+.copyright-section p{
+    padding: 18px;
+    font-weight: bold;
+}
+
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+    background-color: #D3D3D3;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+
+
+
+
+
+
+
+
